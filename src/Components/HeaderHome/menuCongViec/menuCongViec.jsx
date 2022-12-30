@@ -59,7 +59,7 @@ const App = () => {
               const action = layChiTietLoaiCongViecApi(item.id)
               dispatch(action)
             }} >{item.tenLoaiCongViec}</Button>
-         ``
+         
             </div>
         })
     }
