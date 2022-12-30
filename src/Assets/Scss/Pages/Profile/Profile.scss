@@ -1,0 +1,16 @@
+@import '../../fonts';
+@import '../../mixins';
+@import '../../variables';
+
+
+
+.ant-modal-content{
+    .ant-modal-footer{
+        display: none;
+    }
+}
+
+.img-job{
+   max-width: 150px !important;
+    
+}

@@ -1,0 +1,30 @@
+@import '../../fonts';
+@import '../../mixins';
+@import '../../variables';
+
+
+
+.login-page{
+
+    background: radial-gradient(circle at center, #F4DD90, #0C1C5F);
+    height: 745px;
+    .back{
+        .icon{
+            font-size: 25px;
+            padding: 4px 12px;
+            border-radius: 5px;
+            transition: all 0.5s;
+        }
+    }
+    .form-login{
+        border-radius: 10px;
+    }
+
+
+    
+}
+
+
+::placeholder{
+    font-size: 16px ;
+}
