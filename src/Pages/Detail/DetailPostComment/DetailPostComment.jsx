@@ -3,7 +3,8 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { commentApi } from '../../../Redux/Reducer/UserReducer/UserReducer';
-
+import { UserOutlined } from "@ant-design/icons";
+import { Avatar } from 'antd';
 export default function DetailPostComment(props) {
     const {userProfile} = useSelector(state => state.UserReducer)
     const dispatch = useDispatch()
@@ -22,19 +23,26 @@ export default function DetailPostComment(props) {
 
         const action = commentApi(id , model)
         dispatch(action)
+        
     }
     
     const handelChange = (e) =>{
         setContentComment(e.target.value);
     }
 
+    const renderAvatar = () =>{
+        if(userProfile.avatar !== ''){
+          return  <img src={userProfile.avatar} alt="" className="w-12 h-12 rounded-full"/>
+        }
+        return  <Avatar size={40} icon={<UserOutlined />} />
+     }
 
 
   return (
     <div>
         <div className='flex'>
             <div className='avatar mr-3'>
-                <img src="https://thuthuatnhanh.com/wp-content/uploads/2022/08/hinh-nen-cute.jpg" alt=".." className='w-12 h-12 rounded-full'/>
+                {renderAvatar()}
             </div>
             <form action="" onSubmit={handelSubmit}  className='w-full'>
                 <TextArea

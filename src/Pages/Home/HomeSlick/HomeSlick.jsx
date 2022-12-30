@@ -67,76 +67,76 @@ export default function Responsive(props) {
         <h2 className="text-4xl mb-10 pl-8 text-gray-500 font-semibold"> Popular professional services </h2>
         <div className="mx-8 ">
        
-          <div className="slick ">
+          <div className="slick text-white">
           <Slider {...settings}>
-            <div className="item relative ">
+            <div className="item relative  ">
                 <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <div className="title absolute z-10 top-2 left-0 p-4 ">
+                    <p  className="text-sm py-1 m-0">Unlock growth online</p>
+                    <h2 className="text-xl font-bold">SEO</h2>
                 </div>
             </div>
             <div className="item relative ">
-                <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <img src="./img/voiceover-2x.jpg" alt=""  />
+                <div className="title absolute z-10 top-2 left-0 p-4">
+                    <p className="text-sm py-1 m-0">Share your message</p>
+                    <h2 className="text-xl font-bold">Voice Over</h2>
                 </div>
             </div>
             <div className="item relative ">
-                <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <img src="./img/illustration-2x.jpg" alt=""  />
+                <div className="title absolute z-10 top-2 left-0 p-4">
+                    <p className="text-sm py-1 m-0">Color your dreams</p>
+                    <h2 className="text-xl font-bold">Illustration</h2>
                 </div>
             </div>
             <div className="item relative ">
-                <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <img src="./img/logo-design-2x.jpg" alt=""  />
+                <div className="title absolute z-10 top-2 left-0 p-4">
+                    <p className="text-sm py-1 m-0">Build your brand</p>
+                    <h2 className="text-xl font-bold">Logo Design</h2>
                 </div>
             </div>
             <div className="item relative ">
-                <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <img src=".\img\social-2x.jpg" alt=""  />
+                <div className="title absolute z-10 top-2 left-0 p-4">
+                    <p className="text-sm py-1 m-0">Reach more customers</p>
+                    <h2 className="text-xl font-bold">Social Media</h2>
                 </div>
             </div>
             <div className="item relative ">
-                <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <img src=".\img\translation-2x.jpg" alt=""  />
+                <div className="title absolute z-10 top-2 left-0 p-4">
+                    <p className="text-sm py-1 m-0">Go global</p>
+                    <h2 className="text-xl font-bold">Translation</h2>
                 </div>
             </div>
             <div className="item relative ">
-                <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <img src=".\img\book-covers-2x.jpg" alt=""  />
+                <div className="title absolute z-10 top-2 left-0 p-4">
+                    <p className="text-sm py-1 m-0">Showcase your story</p>
+                    <h2 className="text-xl font-bold">Book Covers</h2>
                 </div>
             </div>
             <div className="item relative ">
-                <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <img src=".\img\animated-explainer-2x.jpg" alt=""  />
+                <div className="title absolute z-10 top-2 left-0 p-4">
+                    <p className="text-sm py-1 m-0">Engage your audience</p>
+                    <h2 className="text-xl font-bold">Video Explainer</h2>
                 </div>
             </div>
             <div className="item relative ">
-                <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <img src=".\img\data-entry-2x.jpg" alt=""  />
+                <div className="title absolute z-10 top-2 left-0 p-4">
+                    <p className="text-sm py-1 m-0">Reach more customers</p>
+                    <h2 className="text-xl font-bold">Social Media</h2>
                 </div>
             </div>
             <div className="item relative ">
-                <img src="./img/seo-2x.jpg" alt=""  />
-                <div className="title absolute z-10 top-2 left-0 p-2">
-                    <p>Unlock growth online</p>
-                    <h2>SEO</h2>
+                <img src=".\img\wordpress-2x.jpg" alt=""  />
+                <div className="title absolute z-10 top-2 left-0 p-4">
+                    <p className="text-sm py-1 m-0">Customize your site</p>
+                    <h2 className="text-xl font-bold">WordPress</h2>
                 </div>
             </div>
             </Slider>

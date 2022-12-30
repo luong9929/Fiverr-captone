@@ -1,0 +1,27 @@
+.footerTop,
+.footerBottom {
+  color: #74767e;
+}
+
+.footerTop a:hover {
+  color: #74767e;
+  text-decoration: underline;
+}
+
+.footerBottom .copyRight {
+  color: #b5b6ba;
+}
+
+.footerBottom .socialIcon a {
+    padding: 10px;
+    border-radius: 1000px;
+    background-color: transparent;
+}
+
+.footerBottom .socialIcon a:hover {
+    background-color: #efeff0;
+}
+
+.footerBottom .socialIcon span svg {
+  fill: #74767e;
+}

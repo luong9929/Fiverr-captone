@@ -78,14 +78,27 @@ export default function Profile() {
             <div className="skill py-4">
               <h3 className="font-semibold">Skill</h3>
               <div className="content px-5 pt-3">
-                <p className="m-0 text-gray-400">0352591999</p>
+              {
+                  userProfile?.skill?.map((item,index)=>{
+                    return  <p key={index} className="m-0 text-gray-400">
+                      {item}
+                    </p>
+                  })
+                }
               </div>
             </div>
 
             <div className="certification py-4">
               <h3 className="font-semibold">Certification</h3>
               <div className="content px-5 pt-3">
-                <p className="m-0 text-gray-400">0352591999</p>
+              {
+                  userProfile.certification?.map((item,index)=>{
+                    return  <p key={index} className="m-0 text-gray-400">
+                      {item}
+                    </p>
+                  })
+                }
+               
               </div>
             </div>
           </div>

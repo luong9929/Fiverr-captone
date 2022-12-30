@@ -53,21 +53,13 @@ const App = () => {
     const renderMenu = () =>{
         return menuCongViec.map((item,index)=>{
             return <div key={index}>
-              <Dropdown
-            menu={{
-              items,
-            }}
-            placement="bottom"
-           
-            
-            
-          >
+             
             <Button className='border-none p-0  text-gray-400 hover:text-black' onClick={()=>{
               console.log(item.id)
               const action = layChiTietLoaiCongViecApi(item.id)
               dispatch(action)
             }} >{item.tenLoaiCongViec}</Button>
-          </Dropdown>
+         ``
             </div>
         })
     }

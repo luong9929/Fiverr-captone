@@ -8,6 +8,7 @@ import DetailJob from "./DetailJob/DetailJob";
 import DetailComment from "./DetailComment/DetailComment";
 import { Button, Form, Input } from 'antd';
 import DetailPostComment from "./DetailPostComment/DetailPostComment";
+import Item from "antd/es/list/Item";
 
 
 export default function Detail() {
@@ -94,6 +95,7 @@ export default function Detail() {
             );
           })}
         </div>
+        
         <div className="fag">
           <section className="">
             <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">

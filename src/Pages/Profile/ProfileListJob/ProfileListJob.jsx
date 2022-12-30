@@ -16,7 +16,7 @@ export default function ProfileListJob() {
       return (
         <div
           key={index}
-          className="flex gap-6 my-4  cursor-pointer shadow-sm rounded border-gray-600 p-2"
+          className="flex gap-6 my-4  cursor-pointer shadow-md border-b-2 border-green-400 rounded  p-2"
         >
           <div className="left w-40 h-32 ">
             <img
